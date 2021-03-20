@@ -1,0 +1,59 @@
+/* if the viewport is 500px or less */
+@media only screen and (max-width: 500px) {
+  .site-main .number1-section,
+  .site-main .number2-section,
+  .site-main .number3-section {
+    padding: 20px 1rem;
+    font-size: 14px;
+  }
+
+  .site-main .heading {
+    font-size: 25px;
+  }
+  .site-main .number1-section ol {
+    padding-left: 1rem;
+  }
+  .site-main .number2-section ol {
+    padding-left: 1rem;
+  }
+  .site-main .number3-section ol {
+    padding-left: 1rem;
+  }
+  .site-main .number1-section {
+    padding-top: 100px;
+  }
+}
+
+/* if the vp is 768px */
+@media only screen and (min-width: 501px) and (max-width: 801px) {
+  .site-main .number1-section,
+  .site-main .number2-section,
+  .site-main .number3-section {
+    padding: 40px 1rem;
+  }
+  .site-main .number1-section ol {
+    padding-left: 1rem;
+  }
+  .site-main .number2-section ol {
+    padding-left: 1rem;
+  }
+  .site-main .number3-section ol {
+    padding-left: 1rem;
+  }
+  .site-main .number1-section {
+    padding-top: 150px;
+  }
+}
+
+/* @media only screen and (min-width: 320px) and (max-width: 375px) {
+  .site-main .number1-section ol {
+    padding-left: 2%;
+    padding-right: ;
+  }
+  .site-main .number2-section ol {
+    padding-left: 2%;
+  }
+  .site-main .number3-section ol {
+    padding-left: 2%;
+  }
+} */

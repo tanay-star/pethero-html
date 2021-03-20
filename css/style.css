@@ -1,0 +1,452 @@
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* global styles */
+@import url(./partials/_global.css);
+
+/* start navigation */
+/* .header_area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+} */
+
+.header_area .main-menu .navbar .navbar-brand a {
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+}
+
+.header_area .main-menu .navbar {
+  padding: 3rem 5rem;
+  height: 0rem;
+  min-height: 12vh;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 2rem 1.2rem;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  color: var(--primary-color);
+
+  padding: 1rem;
+  margin-left: 2rem;
+  font: 400 16px var(--font-family);
+}
+
+#signup {
+  border: 2px solid #17478b;
+  background-color: #17478b;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem 3rem;
+}
+
+/* end navigation */
+
+/* Banner area */
+.site-main .site-banner {
+  padding: 60px 5rem;
+}
+.site-main .site-banner .site-title h1 {
+  padding-top: 20%;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 36px;
+}
+.site-main .site-banner .site-title h6 {
+  padding-top: 4%;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-style: 16px;
+}
+.site-main .site-banner .site-title .buttons {
+  padding-top: 4%;
+}
+.site-main .site-banner .banner-image > img {
+  /* padding: 5% 0; */
+  width: 100%;
+  /* height: auto; */
+}
+.site-main .site-banner .site-title .btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.site-main .site-banner .site-title .btn-outline-primary {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  padding: 1rem 2rem;
+}
+.site-main .site-banner .site-title .btn-outline-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+/* Banner area ends */
+
+/* Second-section */
+
+.site-main .second-section .second-section-title h3 {
+  /* padding-top: 25%; */
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.site-main .second-section {
+  padding: 60px 5rem !important;
+  background: var(--primary-color3);
+}
+.no-bullet {
+  list-style: none;
+  padding-top: 3rem;
+  padding-left: 0%;
+}
+li.first-point {
+  background: url(../images/first_point.png) no-repeat left top;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+li.second-point {
+  background: url(../images2/grow.png) no-repeat left top;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+li.third-point {
+  background: url(../images/noun_payment_578394.png) no-repeat left;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+li.button-point {
+  padding-left: 5rem;
+}
+
+.first-line-of-point {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.site-main .second-section .second-image > img {
+  padding: 2rem 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Second-section ends */
+
+/* third section starts */
+.site-main .third-section .third-section-title h3 {
+  /* padding-top: 25%; */
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.site-main .third-section {
+  padding: 60px 11rem;
+}
+li.fourth-point {
+  background: url(../images/noun_App_2006185.png) no-repeat left top;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+li.fifth-point {
+  background: url(../images2/followup.png) no-repeat left top;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+li.sixth-point {
+  background: url(../images2/health\ record.png) no-repeat left;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+.site-main .third-section .third-image > img {
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* third section ends */
+
+/* fourth section starts */
+
+/* .site-main .fourth-section {
+  padding: 60px 5rem;
+}
+.site-main .fourth-section .fourth-section-title h3 {
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 32px;
+} */
+
+li.seventh-point {
+  background: url(../images2/schedule.png) no-repeat left top;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+li.eighth-point {
+  background: url(../images2/Add\ record.png) no-repeat left top;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+li.nineth-point {
+  background: url(../images2/health\ record.png) no-repeat left;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+
+/* fourth section ends */
+
+/* fifth section */
+.site-main .fifth-section {
+  padding: 60px 5rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+.feature-box {
+  text-align: center;
+  padding: 3rem;
+}
+.first-line-of-point {
+  font-weight: 500;
+  font-size: 18px;
+}
+.site-main .feature-box > img {
+  margin-bottom: 1rem;
+}
+.feature-title {
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 32px;
+  text-align: center;
+}
+.feature-subtitle {
+  text-align: center;
+  padding: 1rem 5rem;
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 4rem;
+}
+
+/* fifth section ends */
+
+/* Seventh section */
+.site-main .seventh-section {
+  padding: 60px 5rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  background: var(--primary-color3);
+}
+.box {
+  text-align: center;
+  padding: 3rem;
+}
+.site-main .box > img {
+  margin-bottom: 1rem;
+}
+/* Seventh section ends */
+
+/* Eigth ssectiion */
+.site-main .eigth-section {
+  padding: 60px 12rem;
+  font-family: var(--font-family);
+}
+
+.site-main .eigth-section .title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.site-main .eigth-section .title {
+  font-size: 32px;
+  color: var(--primary-color);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.button-box {
+  text-align: center;
+}
+.eigth-section-button {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  padding: 1rem 2rem;
+  width: 70%;
+  border-radius: 0% !important;
+  letter-spacing: 4px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+}
+.site-main .eigth-section .buttons {
+  justify-content: center;
+  align-items: center;
+}
+.site-main .eigth-section .btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.site-main .eigth-section .btn-outline-primary {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  padding: 1rem 2rem;
+}
+.site-main .eigth-section .btn-outline-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+.sub-box {
+  text-align: center;
+  margin-top: 2rem;
+}
+.sub-box p {
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* Eigth ssectiion ends*/
+
+/* Footer section */
+.footerSection {
+  background: #0e418b;
+  color: #fff;
+  padding: 70px 25px;
+  padding-top: 35px;
+  position: relative;
+}
+.footerSection h6 {
+  border: 1px solid;
+  padding: 4px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+span.footerCopyright {
+  margin-top: 168px;
+  display: block;
+  font-size: 15px;
+}
+.footerSection p {
+  text-transform: uppercase;
+  color: #bccce2;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.footerSectionLink ul {
+  list-style: none;
+  line-height: 40px;
+  color: #ced8e8;
+  padding-left: 0%;
+}
+.footerSectionLink ul li:hover {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footerSectionLink ul li a {
+  color: #ced8e8;
+  cursor: pointer;
+  text-decoration: none;
+}
+.footerSectionLink ul li a:hover {
+  color: #fff;
+}
+.footerSectionLink > img {
+  margin-bottom: 10px;
+}
+.footerSectionLink .icon {
+  padding-right: 20px;
+  font-size: 25px;
+}
+.footer-img {
+  border-radius: 100%;
+}
+.footerSection .footerLogo > img {
+  max-width: 100%;
+}
+/* Footer section ends */
+
+/*########################## ADDING MEDIA QUERIES ################################*/
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .second-section .container-fluid{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .site-main .second-section,.third-section{
+        padding: 60px 4rem;
+    }
+    .site-main .fifth-section .feature-subtitle{
+        display: none;
+    }
+    .second-section .fourth-image{
+        background-image: none !important;
+    }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .second-section .container-fluid{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .site-main .second-section,.third-section{
+        padding: 60px 4rem;
+    } */
+
+/* .site-main .fifth-section .feature-subtitle{
+        display: none;
+    } */
+
+/* } */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .second-section .container-fluid{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .site-main .second-section,.third-section{
+        padding: 60px 4rem;
+    }
+    
+} */
+
+/* @media only screen and (max-width: 450px){
+    .site-main .navbar{
+        
+        padding-right: 2rem;
+    }
+    .site-main .site-banner{
+        padding: 5rem 2rem;
+    }
+    .header_area .main-menu .navbar{
+        padding: 1%;
+    }
+    
+} */

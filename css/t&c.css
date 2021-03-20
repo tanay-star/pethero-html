@@ -1,0 +1,42 @@
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* global styles */
+@import url(./partials/_global.css);
+
+/* ---------------------------------First Section-------------------------------------- */
+.site-main .number1-section {
+  padding: 60px 5rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+}
+.site-main .heading {
+  text-align: center;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+
+/* -----------------------------Second Section----------------------------------------- */
+.site-main .number2-section {
+  padding: 60px 5rem;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ----------------------------Third Section------------------------------------------- */
+.site-main .number3-section {
+  padding: 60px 5rem;
+  font-family: var(--font-family);
+  font: 16px;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+li {
+  margin-bottom: 1%;
+}

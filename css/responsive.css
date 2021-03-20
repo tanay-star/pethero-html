@@ -1,0 +1,217 @@
+/* if the viewport is 340px or less */
+@media only screen and (max-width: 500px) {
+  .header_area .main-menu .navbar {
+    padding: 2%;
+    margin: 0%;
+  }
+  .site-main .site-banner,
+  .site-main .second-section,
+  .site-main .third-section,
+  .site-main .fourth-section,
+  .site-main .fifth-section,
+  .site-main .seventh-section,
+  .site-main .eigth-section {
+    margin: 0%;
+    padding: 2%;
+  }
+  li.button-point {
+    padding-left: 0;
+    text-align: center;
+  }
+  .site-main .site-banner {
+    margin-top: 10%;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 25px;
+  }
+  .site-main .site-banner .site-title h6 {
+    font-size: 15px;
+  }
+  br {
+    display: none;
+  }
+  .navbar-collapse {
+    background-color: white;
+    position: relative;
+    top: -25px;
+    z-index: 9;
+    width: 100%;
+  }
+  .header_area .main-menu .nav-item .nav-link {
+    margin-left: 0%;
+  }
+  .site-main .site-banner .site-title .btn-outline-primary {
+    padding: 0.5rem 0.5rem;
+  }
+  .site-main .site-banner .site-title .btn-primary {
+    padding: 0.5rem 0.5rem;
+  }
+  .site-main .site-banner {
+    text-align: center;
+  }
+  .site-main .site-banner .buttons {
+    align-items: center;
+    justify-content: center;
+  }
+  /* ---------------------second-section-------------------- */
+  .site-main .second-section .second-section-title h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .site-main .second-section {
+    padding: 0 !important;
+    margin-top: 7%;
+  }
+  .site-main .second-section br {
+    display: none;
+  }
+
+  /* ---------------------third-section--------------------- */
+
+  .site-main .third-section .third-section-title h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .site-main .third-section {
+    margin-top: 7%;
+  }
+  .site-main .third-section .third-image {
+    margin-bottom: 9%;
+  }
+
+  /* --------------------fourth-section--------------------- */
+  .site-main .fourth-section .fourth-section-title h3 {
+    font-size: 25px;
+  }
+  .site-main .fourth-section {
+    background-image: none;
+  }
+  .site-main .fourth-section .fourth-section-title {
+    padding-left: 2% !important;
+  }
+
+  /* --------------------fifth section------------------------ */
+  .site-main .fifth-section .feature-title {
+    font-size: 25px;
+  }
+  .site-main .fifth-section .feature-subtitle {
+    font-size: 17px;
+    padding: 1rem;
+  }
+  .site-main .fifth-section {
+    margin-top: 7%;
+  }
+
+  /* ----------------------seventh-section--------------------- */
+  .site-main .seventh-section .feature-title {
+    font-size: 25px;
+  }
+
+  /* -----------------------eigth-section----------------------- */
+  .site-main .eigth-section {
+    margin-top: 7%;
+    margin-bottom: 10%;
+  }
+  .eigth-section .image {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .site-main .eigth-section .title {
+    font-size: 25px;
+  }
+  .eigth-section-button {
+    letter-spacing: 2px;
+  }
+  .site-main .eigth-section .image > img {
+    position: static;
+  }
+  .site-main .eigth-section .buttons {
+    align-items: center;
+    justify-content: center;
+  }
+  .site-main .eigth-section .btn-outline-primary {
+    padding: 0.5rem 0.5rem;
+  }
+  .site-main .eigth-section .btn-primary {
+    padding: 0.5rem 0.5rem;
+  }
+
+  /* ------------------footer section--------------- */
+  span.footerCopyright {
+    margin-top: 10%;
+  }
+  .footerSection {
+    background: #0e418b;
+    color: #fff;
+    padding: 70px 25px;
+    padding-top: 35px;
+  }
+}
+
+/*--------------------------If the viewport is 768px---------------------*/
+@media only screen and (min-width: 501px) and (max-width: 801px) {
+  /* --------------Navbar------------------------- */
+  .navbar-collapse {
+    background-color: white;
+    position: relative;
+    top: -25px;
+    z-index: 9;
+    width: 100%;
+  }
+  /* -----------------baneer section------------------- */
+  .site-main .site-banner .banner-image {
+    margin-top: 10%;
+  }
+  .site-main .site-banner .site-title {
+    text-align: center;
+  }
+  .site-main .site-banner .site-title .sub-title {
+    padding: 3%;
+  }
+  .site-main .site-banner .site-title .buttons {
+    align-items: center;
+    justify-content: center;
+  }
+  /* -----------------third-section--------------------- */
+  .site-main .third-section {
+    padding: 60px 5rem;
+  }
+  /* --------------fourth section----------------------- */
+  .site-main .fourth-section {
+    background-image: none;
+  }
+
+  /* ------------fifth section------------------------- */
+  .site-main .fifth-section .feature-subtitle {
+    display: none;
+  }
+
+  /* ------------eigth section-------------------------- */
+  .site-main .eigth-section .image > img {
+    position: static;
+  }
+  .site-main .eigth-section {
+    padding: 60px 2rem;
+  }
+  .site-main .eigth-section .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* -----------------footer section---------------------- */
+  .footerSection {
+    background: #0e418b;
+    color: #fff;
+    padding: 70px 25px;
+    padding-top: 35px;
+  }
+}
+
+/* ----------------------------------if the vp is between 375 and 320 px--------------------------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .eigth-section-button {
+    padding: 1rem 1px;
+    font-size: 14px;
+  }
+}

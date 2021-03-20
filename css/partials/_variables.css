@@ -1,0 +1,21 @@
+
+
+
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS Variables */
+
+:root {
+    --primary-color: #17478b;
+    --primary-color2: #f2ae1c;
+
+    /* font family variable */
+    --font-family:'IBM Plex Sans', sans-serif;
+    --primary-color3: #f8f9fa;
+    --body-font-size: 16px;
+}
